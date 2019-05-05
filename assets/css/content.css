@@ -1,0 +1,159 @@
+.main-story >img{
+  width: 100%;
+}
+.main-story a{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.3rem;
+    font-weight: 650;
+}
+.main-story p{
+    color: #444;
+    font-size: 1rem;
+    margin-top: 2%;
+}
+.my-titles{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.25rem;
+    font-weight: 680;
+}
+.my-titles-featured{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700; 
+}
+.unique{
+    color: rgba(3,3,3,.4);
+    font-weight: 750;
+    font-size:0.8rem;
+    padding:2% 0% 2% 1%;
+}
+.sub_main>img{
+   width: 135px;
+   padding-top: 2.5%;
+   padding-bottom: 2.5%;
+}
+.sub_main {
+    display: flex;
+ }
+.sub_main a{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 650;
+    display: block;
+    padding-left: 3%;
+    padding-top: 2.5%;
+ }
+ 
+.sub_main p{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding-bottom: 5%; 
+ }
+ .feat-story img{
+     width: 100%;
+ }
+ .feat-story a{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.15rem;
+    font-weight: 650;
+    display: block;
+    padding-left: 1%;
+    padding-top: 1%; 
+ }
+ .feat-story p{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    padding: 3% 1% 1% 1%;
+
+}
+.panel{
+    border-top: 0;
+    border:1px solid silver;
+    padding: 0% 3% 5% 3%;
+}
+.feat-story{
+    margin-top: 5%;
+}
+.opinion{
+    display: flex;
+}
+.opinion >div{
+  padding-left:2%;
+  margin-left:1%;
+}
+.opinion h1{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700; 
+}
+
+.opinion h8{
+    color: #777;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.8rem;
+    font-weight: 750; 
+}
+img[alt="opinion"]{
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+
+img[alt="opinion"]{
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+.latest_news_section{
+    display: flex;
+    margin-top: 2%;
+}
+img[alt="latest"]{
+    width: 200px;
+}
+
+.latest_news_section h1{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-left:2% ; 
+    padding-right: 2%;
+}
+.clearfix{
+    margin-top: 8%;
+}
+.card{
+    padding:0;
+    margin: 0;
+    margin-top:5%;
+}
+.card img{
+    width: 100%;
+}
+.card h1{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.15rem;
+    font-weight: 650;
+    display: block;
+    padding-left: 1%;
+    padding-top: 1%; 
+ }
+ .card p{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    padding: 3% 1% 1% 1%;
+
+}

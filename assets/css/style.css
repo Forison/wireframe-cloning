@@ -29,9 +29,7 @@ body{
    font-size: 0.7rem;
    font-weight: bolder;
    text-transform: uppercase;
-
 }
-
 .beside-nav >button{
     color: #f72210;
     background-color: white;
@@ -52,10 +50,9 @@ body{
     font-size: 1.4rem; 
     position: absolute; 
 }
-
 .left{
     width: 100%;
-    height: 300px;
+    height: 1000px;
     border:1px solid red;
     margin-top: 1%;
 }
