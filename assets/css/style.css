@@ -24,43 +24,33 @@ body{
     height: 40px;
     padding-top: 0.4%;
 }
-.beside-nav{
-    width: 300px;
-    height: 40px;
+.beside-nav >a{
+   color: #fff;
+   font-size: 0.7rem;
+   font-weight: bolder;
+   text-transform: uppercase;
+
 }
-.beside-nav button{
-    width: 121px;
-    height: 90%;
-    margin-top: 0.5%;
-    background-color: #fff;
-    border:0;
+
+.beside-nav >button{
     color: #f72210;
-    font-size: 1rem;
+    background-color: white;
+    border:0;
+    margin-top: 2.5%;
+    border-radius: 1px;
     text-transform: uppercase;
-    padding: 1%;
-    padding-bottom: 4%;
-    font-weight: bolder;
-}
-.beside-nav a{
-    margin-right: 1%;
-    width: 121px;
-    height: 90%;
-    color: #fff;
-    text-transform: uppercase;
-    margin-top: 0.5%;
-    padding-right: 3%;
-    font-weight: bolder;
-}
-.fa-bars{
-margin-left: 10%;
-margin-right: 1.5%;
-color: #fff;
-font-size: 1.4rem;
-}
+    font-weight: 900;
+    font-size: 0.6rem;
+    padding-bottom: 6%;
+    padding-top: 6%;
+ }
+ .fa-bars{
+     color: #fff;
+ }
 .fa-chevron-right{
     color:  #f72210;
     font-size: 1.4rem; 
-    padding-top: 2%; 
+    position: absolute; 
 }
 
 .left{
