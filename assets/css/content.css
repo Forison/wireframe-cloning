@@ -157,3 +157,103 @@ img[alt="latest"]{
     padding: 3% 1% 1% 1%;
 
 }
+/* begin design and development of section under section one  */
+.b{
+    width: 100%;
+    border: 0;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background-color: whitesmoke;
+}
+.b:hover{
+    background-color: #999;
+}
+img[alt="feat-story"]{
+    width: 100%;  
+}
+.mag a{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-left:2% ; 
+    padding-right: 2%;
+    display: block;
+}
+
+img[alt="magazine_banner"]{
+    margin-left: 25%;
+}
+img[alt="main_mag"]{
+    width: 100%;
+    padding-top: 38%;
+}
+.before-editor{
+margin-top: 5%;
+}
+.sect{
+    width: 100%;
+    height: 200px;
+    border:1px solid red;
+}
+img[alt="editor_pick"]{
+    width: 100%;
+}
+.header{
+    margin: 2% 0 2% 0;
+}
+.header img{
+    margin-left: 40%;
+}
+.editor a{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.editor p{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+img[alt="featured_slideshow"]{
+    width: 100%;
+}
+img[alt="featured_slideshow"] +a{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-top: 2%;
+    padding-bottom: 3%;  
+}
+img[alt="others"]{
+    width: 100%;
+}
+img[alt="other_world"]{
+    width: 135px;
+}
+.top a{
+    color: #000;
+    font-weight: 700;
+    font-family: Arial,Helvetica,sans-serif;
+    padding:2% 0 0 3%;
+}
+img[alt="others"] +a{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.clearfix_2{
+    height:450px;
+}
