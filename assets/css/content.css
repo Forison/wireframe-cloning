@@ -158,14 +158,10 @@ img[alt="latest"]{
 
 }
 /* begin design and development of section under section one  */
-.b{
-    width: 100%;
-    border: 0;
-    padding-top:2.5%;
-    padding-bottom:2.5%;
-    font-weight: 700;
-    font-size: 0.9rem;
-    background-color: whitesmoke;
+
+.c{
+    background-color: #f72210;
+    margin-bottom: 5%;
 }
 .b:hover{
     background-color: #999;
@@ -256,4 +252,64 @@ img[alt="others"] +a{
 }
 .clearfix_2{
     height:450px;
+}
+.before_footer{
+    width: 100%;
+    height: 460px;
+    background-color:#f7f7f7;
+    margin-top: 5%; 
+}
+
+.before_footer_top{
+    display: flex;
+    margin-top: 3%; 
+}
+.before_footer_top > div h1{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 2% 0 0 5%;
+}
+.before_footer_top > div h6{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 2% 0 0 5%;
+}
+.panel{
+    padding: 5%;
+}
+.btn-warning{
+    background-color: #f72210;
+}
+.upper_foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.lower_foot{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    border-right: 1px solid silver;
+    padding-right: 1%;
+    font-size: 0.9rem;
+    color: #333;
+}
+.lower_foot >div:first-child{
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+.lower_foot >div:last-child{
+    padding-left: 2%;
+    padding-right: 3%;
 }
