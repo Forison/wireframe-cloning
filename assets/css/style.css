@@ -5,53 +5,46 @@ body{
 .body-wrap{
     background-color: #fff;
 }
-.container-fluid{
-    width:95%;
-}
-.nav-bar{
-    max-width:100%;
-    height: 40px;
-    background-color: #f72210;
-}
-.nav-wrap{
-    display: flex;
-    justify-content: space-between;
+.nav{
     width: 95%;
+    margin: auto;
+    background-color: #fff;
+}
+.nav_1{
+    width: 100%;
+    height: 50px;
+    background-color:#f72210;
+    border: 0;
+    z-index: 3;
+}
+.navbar-toggler{
+    background-color: #fff;
+    margin-left: 5%;
+}
+.my_second_nav {
+    height: 36px;
+}
+#exhibit{
+background-color: white;
+margin-left: 70%;
+padding:1% 5% 50% 3%;
+
+}
+#sec{
+    margin-top: 3%;
+}
+.navi{
+    display: flex;
     margin: 0 auto;
 }
-.brand-name{
-    width: 132px;
-    height: 40px;
-    padding-top: 0.4%;
+.navi .nav-link{
+    color: #000;
+    font-size:0.9rem;
+    font-weight: 600;
+    border-right: 1px solid silver;
 }
-.beside-nav >a{
-   color: #fff;
-   font-size: 0.7rem;
-   font-weight: bolder;
-   text-transform: uppercase;
-}
-.beside-nav >button{
-    color: #f72210;
-    background-color: white;
-    border:0;
-    margin-top: 2.5%;
-    border-radius: 1px;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 0.6rem;
-    padding-bottom: 6%;
-    padding-top: 6%;
- }
- .fa-bars{
-     color: #fff;
-     padding-left: 1%;
- }
-
-.left{
-    width: 100%;
-    height: 500px;
-    border:1px solid red;
-    margin-top: 1%;
+.container-fluid{
+    width:95%;
 }
 .top{
     display: flex;

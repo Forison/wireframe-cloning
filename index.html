@@ -19,22 +19,95 @@
     <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <link rel="stylesheet" href="./assets/css/content.css"/>
+    <link rel="icon" type="image/png" href="./assets/favico/favico.png">
     <title>Using bootstrap</title>
 
 </head>
 <body>
-<nav class="nav-bar">
-    <div class="nav-wrap">
-        <div class="brand-name">
-            <img src="./assets/images/main_logo.png" alt="brandname">
+        <nav class="navbar  navbar-expand-xxl justify-content-between fixed-top nav_1 border border-0">
+            <a class="nav-brand"><img alt="brand_name" src="./assets/images/main_logo.png"></a>
+            <button class="navbar-toggler"data-toggle="collapse" data-target="#my">
+                <span class="fas fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse"id="my">
+                    <ul class="navbar-nav" id="exhibit">
+                            <li class="nav-item d-flex">
+                                    <a class="nav-link "></a><img alt="search" src="assets/images/search.png">
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link"> US  <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"> WORLD <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link"> BUSINESS <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link">TECH & SCIENCE <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">CULTURE <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link">SPORTS <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                     <a class="nav-link">HEALTH <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link">OPINION <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                                   
+                                <li class="nav-item d-flex">
+                                    <a class="nav-link ">Indelible <i class="fas fa-chevron-right"></i></a>
+                                </li>
+                    </ul>
         </div>
-        <div class="beside-nav">
-            <a href="#" class="s">SIGN IN</a> <button class="b">subscribe</button> <i class="fas fa-bars "></i> 
+        </nav>
+        <div class="navbar nav d-none d-sm-none d-md-none d-lg-block" id="sec">
+            <img src="./assets/images/top_nav.png" alt="top_nav">
+            <nav class=" my_second_nav">
+                    <ul class="navi">
+                        <li class="nav-item">
+                            <a class="nav-link"> US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"> WORLD</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link"> BUSINESS</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link">TECH & SCIENCE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">CULTURE</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link">SPORTS</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link">HEALTH</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link">OPINION</a>
+                        </li>
+                           
+                        <li class="nav-item d-flex">
+                            <a class="nav-link ">Indelible</a><img alt="search" src="assets/images/search.png">
+                        </li>
+                    </ul>
+            </nav>
         </div>
-    </div>
-</nav>
-
 <div class="container-fluid body-wrap">
+    
     <div class="row">
           <div class=" col-sm-7   order-sm-2   col-md-7 order-md-2    col-lg-5  order-lg-2   shadow-lg"> 
             <h1 class="unique">TOP STORY</h1>
@@ -299,91 +372,98 @@
                 
                 <div class="clearfix"></div>
                 <!-- bedin section under opinion -->
-                <div class="card">
-                   <div class="card-body">
-                       <img src="./assets/images/left_six.png" alt="left_card">
-                       <h1>J.R.R. Tolkien: Inside the Mastermind of Middle-Earth</h1>
-                       <p>Nearly a century ago, J.R.R. Tolkien introduced readers to the world of Middle-Earth, capturing the hearts and minds of generations to come. Explore the man behind The Hobbit and The Lord of the Rings in this new Special Edition: J.R.R. Tolkien!
-                        </p>
-                   </div>
-                </div>
-
+                <div class="row">
+                    <div class="col-sm-8 ml-sm-auto mr-sm-auto col-md-8 ml-md-auto mr-md-auto col-lg-12">
+                        
                 <div class="card">
                         <div class="card-body">
-                            <img src="./assets/images/left_seven.png" alt="left_card">
+                            <img src="./assets/images/left_six.png" alt="left_card">
                             <h1>J.R.R. Tolkien: Inside the Mastermind of Middle-Earth</h1>
                             <p>Nearly a century ago, J.R.R. Tolkien introduced readers to the world of Middle-Earth, capturing the hearts and minds of generations to come. Explore the man behind The Hobbit and The Lord of the Rings in this new Special Edition: J.R.R. Tolkien!
                              </p>
                         </div>
                      </div>
-
+     
                      <div class="card">
-                            <div class="card-body">
-                                <img src="./assets/images/left_eight.png" alt="left_card">
-                                <h1>J.R.R. Tolkien: Inside the Mastermind of Middle-Earth</h1>
-                                <p>‘One size fits all’ teaching is a thing of the past. The nurturing of critical thinking is paramount in today’s global student. Where are the leaders of tomorrow studying?
-                                 </p>
-                            </div>
-                         </div>
-
-                         <div class="card">
-                                <div class="card-body">
-                                    <img src="./assets/images/left_world.png" alt="left_card">
-                                    <h1>GHANA: Africa’s Economic Gateway</h1>
-                                    <p>Blending enviable political and social stability with a business-friendly approach, ambitious Namibia’s geo-strategic position offers international investors intelligent access to the markets of southern Africa and beyond. Read more.
-                                     </p>
-                                </div>
+                             <div class="card-body">
+                                 <img src="./assets/images/left_seven.png" alt="left_card">
+                                 <h1>J.R.R. Tolkien: Inside the Mastermind of Middle-Earth</h1>
+                                 <p>Nearly a century ago, J.R.R. Tolkien introduced readers to the world of Middle-Earth, capturing the hearts and minds of generations to come. Explore the man behind The Hobbit and The Lord of the Rings in this new Special Edition: J.R.R. Tolkien!
+                                  </p>
                              </div>
-          </div>
+                          </div>
+     
+                     <div class="card">
+                             <div class="card-body">
+                                 <img src="./assets/images/left_eight.png" alt="left_card">
+                                 <h1>J.R.R. Tolkien: Inside the Mastermind of Middle-Earth</h1>
+                                 <p>‘One size fits all’ teaching is a thing of the past. The nurturing of critical thinking is paramount in today’s global student. Where are the leaders of tomorrow studying?
+                                      </p>
+                             </div>
+                     </div>
+     
+                     <div class="card">
+                             <div class="card-body">
+                                 <img src="./assets/images/left_world.png" alt="left_card">
+                                 <h1>GHANA: Africa’s Economic Gateway</h1>
+                                 <p>Blending enviable political and social stability with a business-friendly approach, ambitious Namibia’s geo-strategic position offers international investors intelligent access to the markets of southern Africa and beyond. Read more.
+                                          </p>
+                                 </div>
+                              </div>
+                     </div>
+               
+                    </div>
+                </div>
     </div>
     <div class="clearfix"></div>
    <!--begin design and development of in magazine-->
-    <div class="row mag">
-      <div class="col-sm-3">
-            <img alt="main_mag" src="./assets/images/main_mag.png">
-            <button class="b">SEE FEATURES <i class="fas fa-chevron-right"></i></button> 
-      </div>
-      <div class="col-sm-9">
-                <h2><img alt="magazine_banner" src="./assets/images/magazine_poster.png"></h2><hr>
-          <div class="row">
-              
-              <div class="col-sm-4">
-                <img alt="feat-story" src="./assets/images/mag_one.png"> 
-                <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
-              </div>
-              <div class="col-sm-4">
-                <img alt="feat-story" src="./assets/images/mag_two.png"> 
-                <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
-              </div>
-              <div class="col-sm-4">
-                <img alt="feat-story" src="./assets/images/mag_three.png"> 
-                <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
-              </div>
-          </div>
-      </div>
-
+<div class="row mag">
+    <div class="col-sm-3">
+        <img alt="main_mag" src="./assets/images/main_mag.png">
+        <button class="b btn btn-light">SEE FEATURES <i class="fas fa-chevron-right"></i></button>
     </div>
+    <div class="col-sm-9">
+        <h2><img alt="magazine_banner" src="./assets/images/magazine_poster.png"></h2>
+        <hr>
+        <div class="row">
 
-    <div class="row before-editor mag">
-        <div class="col-sm-3 ">
-            <img alt="feat-story" src="./assets/images/mag_four.png"> 
-            <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
-        </div>
-        <div class="col-sm-3">
-            <img alt="feat-story" src="./assets/images/mag_five.png"> 
-            <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
-        </div>
-        <div class="col-sm-3">
-            <img alt="feat-story" src="./assets/images/mag_one.png"> 
-            <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
-        </div>
-        <div class="col-sm-3">
-            <img alt="feat-story" src="./assets/images/mag_six.png"> 
-            <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
+            <div class="col-sm-4">
+                <img alt="feat-story" src="./assets/images/mag_one.png">
+                <a>Gingrich: China Is Far More Dangerous Than We Thought</a>
+            </div>
+            <div class="col-sm-4">
+                <img alt="feat-story" src="./assets/images/mag_two.png">
+                <a>Gingrich: China Is Far More Dangerous Than We Thought</a>
+            </div>
+            <div class="col-sm-4">
+                <img alt="feat-story" src="./assets/images/mag_three.png">
+                <a>Gingrich: China Is Far More Dangerous Than We Thought</a>
+            </div>
         </div>
     </div>
+</div>
+
+<div class="row before-editor mag">
+    <div class="col-sm-3 ">
+    <img alt="feat-story" src="./assets/images/mag_four.png"> 
+    <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
+</div>
+<div class="col-sm-3">
+    <img alt="feat-story" src="./assets/images/mag_five.png"> 
+    <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
+</div>
+<div class="col-sm-3">
+    <img alt="feat-story" src="./assets/images/mag_one.png"> 
+    <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
+</div>
+<div class="col-sm-3">
+    <img alt="feat-story" src="./assets/images/mag_six.png"> 
+    <a>Gingrich: China Is Far More Dangerous Than We Thought</a> 
+</div>
+</div>
+
     <h2 class="header"><img alt="magazine_banner" src="./assets/images/editor_pick_banner.png"></h2><hr>
-    <div class="row editor">
+<div class="row editor">
             
         <div class="col-md-6">
           <div class="row">
@@ -449,11 +529,11 @@
                   </div>  
                </div>
         </div>
-    </div>
+</div>
 
     <h2 class="header"><img alt="magazine_banner" src="./assets/images/featured_slideshow.png"></h2><hr>
     
-    <div class="row feautures">
+<div class="row feautures">
             <div class="col-sm-4">
              <img alt="featured_slideshow" src="./assets/images/features.png">
              <a>The History of Drag, from Julian Eltinge to 'RuPaul's Drag Race'</a>
@@ -479,90 +559,91 @@
                 <img alt="featured_slideshow" src="./assets/images/features_six.png">
                 <a>The History of Drag, from Julian Eltinge to 'RuPaul's Drag Race'</a> 
             </div>
-        </div>
+</div>
 
+<h1 class="unique">OPINIONS</h1>
+<div class="row others">
+    <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/other_world_one.png" alt="others">
+        <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/other_world_two.png" alt="others">
+        <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <div class="top">
+        <img src="./assets/images/right_one.png" alt="other_world">
+        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+        </div>
         <hr>
-        <div class="row others">
-                <div class="col-sm-6 col-md-4">
-                 <img src="./assets/images/other_world_one.png" alt="others">
-                 <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                 <img src="./assets/images/other_world_two.png" alt="others">
-                 <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="top">
-                        <img src="./assets/images/right_one.png" alt="other_world">
-                        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                    </div><hr>
-                    <div class="top">
-                        <img src="./assets/images/right_two.png" alt="other_world">
-                        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                    </div><hr>
-                    <div class="top">
-                        <img src="./assets/images/right_three.png" alt="other_world">
-                        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                    </div>
-                
-                </div>
+        <div class="top">
+        <img src="./assets/images/right_two.png" alt="other_world">
+        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+        </div><hr>
+        <div class="top">
+        <img src="./assets/images/right_three.png" alt="other_world">
+        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+    </div>
+    </div>
+    <!--ROW END-->
                 <div class="clearfix_2"></div>
-                <div class="col-sm-6 col-md-4">
-                        <img src="./assets/images/other_world_three.png" alt="others">
+    <div class="col-sm-6 col-md-4">
+                        <img src="./assets/images/other_business_two.png" alt="others">
                         <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                       </div>
-                       <div class="col-sm-6 col-md-4">
-                        <img src="./assets/images/other_business_one.png" alt="others">
-                        <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                       </div>
-                       <div class="col-sm-12 col-md-4">
-                           <div class="top">
-                               <img src="./assets/images/other_business_two.png" alt="other_world">
-                               <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                           </div><hr>
-                           <div class="top">
-                               <img src="./assets/images/other_business_three.png" alt="other_world">
-                               <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                           </div><hr>
-                           <div class="top">
-                               <img src="./assets/images/other_business_four.png" alt="other_world">
-                               <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                           </div>
-                       </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/other_business_one.png" alt="others">
+        <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <div class="top">
+        <img src="./assets/images/other_business_five.png" alt="other_world">
+        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+    </div><hr>
+    <div class="top">
+        <img src="./assets/images/other_business_three.png" alt="other_world">
+        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+    </div><hr>
+    <div class="top">
+        <img src="./assets/images/other_business_four.png" alt="other_world">
+        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+    </div>
+    </div>
                        <div class="clearfix_2"></div> 
                      
-                       <div class="col-sm-6 col-md-4">
+    <div class="col-sm-6 col-md-4">
                             <img src="./assets/images/other_world_one.png" alt="others">
                             <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                           </div>
-                           <div class="col-sm-6 col-md-4">
-                            <img src="./assets/images/other_world_two.png" alt="others">
-                            <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                           </div>
-                           <div class="col-sm-12 col-md-4">
-                               <div class="top">
-                                   <img src="./assets/images/right_seven.png" alt="other_world">
-                                   <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                               </div><hr>
-                               <div class="top">
-                                   <img src="./assets/images/right_eight.png" alt="other_world">
-                                   <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                               </div><hr>
-                               <div class="top">
-                                   <img src="./assets/images/right_one.png" alt="other_world">
-                                   <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                               </div>
-                           </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/other_world_two.png" alt="others">
+        <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <div class="top">
+            <img src="./assets/images/right_seven.png" alt="other_world">
+            <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+        </div><hr>
+        <div class="top">
+            <img src="./assets/images/right_eight.png" alt="other_world">
+            <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+        </div><hr>
+        <div class="top">
+            <img src="./assets/images/right_one.png" alt="other_world">
+            <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+        </div>
+    </div>
                            <div class="clearfix_2"></div>
-                           <div class="col-sm-6 col-md-4">
-                                <img src="./assets/images/other_world_one.png" alt="others">
-                                <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                               </div>
-                               <div class="col-sm-6 col-md-4">
+    <div class="col-sm-6 col-md-4">
+            <img src="./assets/images/other_world_one.png" alt="others">
+            <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
+    </div>
+    <div class="col-sm-6 col-md-4">
                                 <img src="./assets/images/other_world_two.png" alt="others">
                                 <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                               </div>
-                               <div class="col-sm-12 col-md-4">
+    </div>
+    <div class="col-sm-12 col-md-4">
                                    <div class="top">
                                        <img src="./assets/images/right_one.png" alt="other_world">
                                        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
@@ -575,17 +656,17 @@
                                        <img src="./assets/images/right_one.png" alt="other_world">
                                        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
                                    </div>
-                               </div>
-                               <div class="clearfix_2"></div>
-                              <div class="col-sm-6 col-md-4">
+    </div>
+    <div class="clearfix_2"></div>
+    <div class="col-sm-6 col-md-4">
                                     <img src="./assets/images/other_business_one.png" alt="others">
                                     <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                                   </div>
-                                   <div class="col-sm-6 col-md-4">
-                                    <img src="./assets/images/other_business_two.png" alt="others">
-                                    <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                                   </div>
-                                   <div class="col-sm-12 col-md-4">
+    </div>
+    <div class="col-sm-6 col-md-4">
+         <img src="./assets/images/other_business_two.png" alt="others">
+         <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
+    </div>
+    <div class="col-sm-12 col-md-4">
                                        <div class="top">
                                            <img src="./assets/images/other_business_three.png" alt="other_world">
                                            <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
@@ -598,34 +679,33 @@
                                            <img src="./assets/images/other_business_five.png" alt="other_world">
                                            <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
                                        </div>
-                                   </div>
+    </div>
 
-                                   <div class="clearfix_2">
-                                       <hr>
-                                   </div>
-                                   <div class="col-sm-6 col-md-4">
-                                        <img src="./assets/images/other_sports_one.png" alt="others">
-                                        <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                                       </div>
-                                       <div class="col-sm-6 col-md-4">
-                                        <img src="./assets/images/other_sports_two.png" alt="others">
-                                        <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
-                                       </div>
-                                       <div class="col-sm-12 col-md-4">
-                                           <div class="top">
-                                               <img src="./assets/images/other_sports_three.png" alt="other_world">
-                                               <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                                           </div><hr> 
-                                           <div class="top">
-                                               <img src="./assets/images/other_sports_four.png" alt="other_world">
-                                               <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                                           </div><hr>
-                                           <div class="top">
-                                               <img src="./assets/images/other_sports_five.png" alt="other_world">
-                                               <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
-                                           </div>
-                                       </div>
-
+                                   <div class="clearfix_2"></div>
+      <div class="row">                             
+    <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/other_sports_one.png" alt="others">
+        <a href="#">Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <img src="./assets/images/other_sports_two.png" alt="others">
+        <a href="#" >Michael Cohen: Inside White Collar Prison Where Ex-Trump Lawyer Is Headed</a>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <div class="top">
+        <img src="./assets/images/other_sports_three.png" alt="other_world">
+        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+    </div><hr> 
+        <div class="top">
+         <img src="./assets/images/other_sports_four.png" alt="other_world">
+         <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+    </div><hr>
+    <div class="top">
+        <img src="./assets/images/other_sports_five.png" alt="other_world">
+        <a >Last Surviving White Rose Member Just Received Germany's Highest Honor</a>
+    </div>
+    </div>
+</div>
 
         </div>
         <div class="clearfix"></div>
