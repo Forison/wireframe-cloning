@@ -18,7 +18,7 @@ body{
     z-index: 3;
 }
 .navbar-toggler{
-    background-color: #fff;
+    background-color: #f72210;
     margin-right: 40px;
 }
 .my_second_nav {
@@ -52,4 +52,7 @@ padding:1% 5% 50% 3%;
 }
 footer{
     width: 100%;
+}
+.fa-bars{
+    color:white;
 }
