@@ -373,3 +373,6 @@ footer ul li a{
     font-weight: bolder;
     border-radius: 0;
   }
+  .nav-brand{
+      margin-left: 2%;
+  }
