@@ -357,3 +357,19 @@ footer ul li a{
 .b{
     width: 100%;
 }
+.sign_in_subscribe >a{
+  color:#fff;
+  font-weight: bolder;
+}
+.sign_in_subscribe >a:hover{
+    cursor: pointer;
+  }
+
+.sign_in_subscribe{
+   margin-right: 1%;
+  }
+.sign_in_subscribe button{
+    color:#f72210;
+    font-weight: bolder;
+    border-radius: 0;
+  }
