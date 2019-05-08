@@ -22,25 +22,15 @@ body{
     background-color: #f72210;
     margin-right: 40px;
 }
-.my_second_nav {
-    height: 36px;
+
+.sign_in_subscribe button{
+    font-size: 1rem;
 }
 #exhibit{
 background-color: white;
 margin-left: 70%;
 padding:1% 5% 50% 3%;
 
-}
-
-.navi{
-    display: flex;
-    margin: 0 auto;
-}
-.navi .nav-link{
-    color: #000;
-    font-size:0.9rem;
-    font-weight: 600;
-    border-right: 1px solid silver;
 }
 .container-fluid{
     width:95%;
