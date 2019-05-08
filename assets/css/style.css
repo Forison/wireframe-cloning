@@ -4,6 +4,7 @@ body{
 }
 .body-wrap{
     background-color: #fff;
+    margin-top: 4%;
 }
 .nav{
     width: 95%;
@@ -30,9 +31,7 @@ margin-left: 70%;
 padding:1% 5% 50% 3%;
 
 }
-#sec{
-    margin-top: 3%;
-}
+
 .navi{
     display: flex;
     margin: 0 auto;
