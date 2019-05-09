@@ -212,7 +212,7 @@ img[alt="editor_pick"]{
 }
 .editor a{
     color: #000;
-    font-family: Arial,Helvetica,sans-serif;
+    
     font-size: 1.2rem;
     font-weight: 700;
     display: block;
@@ -221,6 +221,7 @@ img[alt="editor_pick"]{
 }
 .editor p{
     color: #000;
+    
     font-size: 0.9rem;
     padding-top: 2%;
     padding-bottom: 3%;
@@ -230,22 +231,24 @@ img[alt="featured_slideshow"]{
 }
 img[alt="featured_slideshow"] +a{
     color: #000;
+    
     font-size: 1.1rem;
     font-weight: 700;
     padding-top: 2%;
     padding-bottom: 3%;  
 }
-img[alt="other_world"]{
-    width: 135px;
+img[alt="others"]{
+    width: 100%;
 }
 .top a{
     color: #000;
     font-weight: 700;
-    text-align: center;
-    overflow: hidden;
+    
+    padding:2% 0 0 3%;
 }
 img[alt="others"] +a{
     color: #000;
+    
     font-size: 1.1rem;
     font-weight: 700;
     padding-top: 2%;
@@ -267,12 +270,14 @@ img[alt="others"] +a{
 }
 .before_footer_top > div h1{
     color: #000;
+    
     font-size: 1.1rem;
     font-weight: 700;
     padding: 2% 0 0 5%;
 }
 .before_footer_top > div h6{
     color: #000;
+    
     font-size: 0.9rem;
     font-weight: 400;
     padding: 2% 0 0 5%;
@@ -314,6 +319,7 @@ footer ul li a{
 }
 .nav-item a{
     color: #000;
+    
     font-size: 0.9rem;
     font-weight: 700;
     
