@@ -196,13 +196,15 @@ img[alt="feat-story"]{
     border-bottom: 1px solid #f72210;
     border-width: 2px;
 }
-
-img[alt="magazine_banner"]{
-    margin-left: 25%;
+.header_ban{
+    display: flex;
 }
+img[alt="magazine_banner"]{
+    align-items: center;
+}
+
 img[alt="main_mag"]{
     width: 100%;
-    padding-top: 38%;
 }
 .before-editor{
 margin-top: 5%;
@@ -214,12 +216,6 @@ margin-top: 5%;
 }
 img[alt="editor_pick"]{
     width: 100%;
-}
-.header{
-    margin: 2% 0 2% 0;
-}
-.header img{
-    margin-left: 40%;
 }
 .editor a{
     color: #000;
