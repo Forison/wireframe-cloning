@@ -130,10 +130,6 @@ img[alt="opinion"]{
     display: flex;
     margin-top: 2%;
 }
-img[alt="latest"]{
-    width: 200px;
-}
-
 .latest_news_section h1{
     color: #000;
     font-size: 0.9rem;
@@ -196,12 +192,9 @@ img[alt="feat-story"]{
     border-bottom: 1px solid #f72210;
     border-width: 2px;
 }
-.header_ban{
+ .header_ban{
     display: flex;
-}
-img[alt="magazine_banner"]{
-    align-items: center;
-}
+ }
 
 img[alt="main_mag"]{
     width: 100%;
@@ -228,7 +221,6 @@ img[alt="editor_pick"]{
 }
 .editor p{
     color: #000;
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 0.9rem;
     padding-top: 2%;
     padding-bottom: 3%;
@@ -238,14 +230,10 @@ img[alt="featured_slideshow"]{
 }
 img[alt="featured_slideshow"] +a{
     color: #000;
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     padding-top: 2%;
     padding-bottom: 3%;  
-}
-img[alt="others"]{
-    width: 100%;
 }
 img[alt="other_world"]{
     width: 135px;
@@ -253,12 +241,11 @@ img[alt="other_world"]{
 .top a{
     color: #000;
     font-weight: 700;
-    font-family: Arial,Helvetica,sans-serif;
-    padding:2% 0 0 3%;
+    text-align: center;
+    overflow: hidden;
 }
 img[alt="others"] +a{
     color: #000;
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     padding-top: 2%;
@@ -280,14 +267,12 @@ img[alt="others"] +a{
 }
 .before_footer_top > div h1{
     color: #000;
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     padding: 2% 0 0 5%;
 }
 .before_footer_top > div h6{
     color: #000;
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 0.9rem;
     font-weight: 400;
     padding: 2% 0 0 5%;
@@ -329,7 +314,6 @@ footer ul li a{
 }
 .nav-item a{
     color: #000;
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 0.9rem;
     font-weight: 700;
     
