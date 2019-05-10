@@ -32,8 +32,8 @@ margin-left: 70%;
 padding:1% 5% 50% 3%;
 
 }
-.container-fluid{
-    width:95%;
+.m{
+  padding-left:2%;
 }
 .top{
     display: flex;
