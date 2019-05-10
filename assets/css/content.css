@@ -48,6 +48,7 @@ img[alt="mid_two"]{
 }
 
 .sub_main>div> a{
+    text-align: center;
     color: #000;
     font-size: 1rem;
     font-weight:bold;
@@ -63,7 +64,8 @@ img[alt="mid_two"]{
     font-size: 0.9rem;
     margin-top: 5%;
     margin-left: 3%;
-    padding-bottom: 5%; 
+    padding-bottom: 5%;
+    text-align: center; 
  }
  .feat-story img{
      width: 100%;
