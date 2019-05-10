@@ -9,7 +9,7 @@ img[alt="top_nav"]{
 .main-story >a{
     color: #000;
     font-size: 1.3rem;
-    font-weight: 650;
+    font-weight: bold;
 }
 .main-story a:hover{
     border-bottom: 1px solid #f72210;
@@ -22,34 +22,35 @@ img[alt="top_nav"]{
 .my-titles{
     color: #000;
     font-size: 1.25rem;
-    font-weight: 680;
+    font-weight: bold;
 }
 .my-titles-featured{
     color: #000;
     font-size: 0.9rem;
-    font-weight: 700; 
+    font-weight: bolder; 
 }
 .my-titles-featured:hover{
     color:  #f72210;
 }
 .unique{
-    color: rgba(3,3,3,.4);
-    font-weight: 750;
+    color:#000;
+    font-weight:bolder;
     font-size:0.8rem;
-    padding:2% 0% 2% 1%;
+    padding-top:2%;
+    padding-bottom:  2%;
+    padding-left:  1%;
 }
 img[alt="mid_two"]{
-    width: 135px;
-   padding-top: 2.5%;
-   padding-bottom: 2.5%;
+   width: 135px;
+   height: 90px;
+   margin-top: 2.5%;
+   margin-bottom: 2.5%;
 }
-.sub_main {
-    display: flex;
- }
+
 .sub_main>div> a{
     color: #000;
     font-size: 1rem;
-    font-weight: 650;
+    font-weight:bold;
     display: block;
     padding-left: 3%;
     padding-top: 2.5%;
@@ -70,7 +71,7 @@ img[alt="mid_two"]{
  .feat-story a{
     color: #000;
     font-size: 1.15rem;
-    font-weight: 650;
+    font-weight: bold;
     display: block;
     padding-left: 1%;
     padding-top: 1%; 
@@ -86,7 +87,9 @@ img[alt="mid_two"]{
 .panel{
     border-top: 0;
     border:1px solid silver;
-    padding: 0% 3% 5% 3%;
+    padding-right:3%;
+    padding-bottom:5%;
+    padding-left:3%;
 }
 .feat-story{
     margin-top: 5%;
@@ -98,18 +101,18 @@ img[alt="mid_two"]{
   padding-left:2%;
   margin-left:1%;
 }
-.opinion h1{
+.opinion .h1{
     color: #000;
     font-size: 0.9rem;
-    font-weight: 700; 
+    font-weight:bolder; 
 }
-.opinion h1:hover{
+.opinion .h1:hover{
     color: #f72210;
 }
 .opinion h8{
     color: #777;
     font-size: 0.8rem;
-    font-weight: 750; 
+    font-weight: bolder; 
 }
 .opinion h8:hover{
     color: #f72210;
@@ -124,14 +127,14 @@ img[alt="opinion"]{
     display: flex;
     margin-top: 2%;
 }
-.latest_news_section h1{
+.latest_news_section .h1{
     color: #000;
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: bolder;
     padding-left:2% ; 
     padding-right: 2%;
 }
-.latest_news_section h1:hover{
+.latest_news_section .h1:hover{
     color: #f72210;
 }
 .clearfix{
@@ -145,15 +148,15 @@ img[alt="opinion"]{
 .card img{
     width: 100%;
 }
-.card h1{
+.card .h1{
     color: #000;
     font-size: 1.15rem;
-    font-weight: 650;
+    font-weight: bold;
     display: block;
     padding-left: 1%;
     padding-top: 1%; 
  }
- .card h1:hover{
+ .card .h1:hover{
     color: #f72210;
  }
  .card p{
@@ -177,7 +180,7 @@ img[alt="feat-story"]{
 .mag a{
     color: #000;
     font-size: 0.9rem;
-    font-weight: 700;
+    font-weight: bolder;
     padding-left:2% ; 
     padding-right: 2%;
     display: block;
@@ -196,11 +199,7 @@ img[alt="main_mag"]{
 .before-editor{
 margin-top: 5%;
 }
-.sect{
-    width: 100%;
-    height: 200px;
-    border:1px solid red;
-}
+
 img[alt="editor_pick"]{
     width: 100%;
 }
@@ -208,7 +207,7 @@ img[alt="editor_pick"]{
     color: #000;
     
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: bolder;
     display: block;
     padding-top: 1%;
     padding-bottom: 2%;
@@ -226,7 +225,7 @@ img[alt="featured_slideshow"]{
 img[alt="featured_slideshow"] +a{
     color: #000;   
     font-size: 1.1rem;
-    font-weight: 700;
+    font-weight: bolder;
     padding-top: 2%;
     padding-bottom: 3%;  
 }
@@ -235,13 +234,13 @@ img[alt="others"]{
 }
 .top a{
     color: #000;
-    font-weight: 700;
+    font-weight: bolder;
     padding:2% 0 0 3%;
 }
 img[alt="others"] +a{
     color: #000;
     font-size: 1.1rem;
-    font-weight: 700;
+    font-weight: bolder;
     padding-top: 2%;
     padding-bottom: 3%;
 }
@@ -259,18 +258,18 @@ img[alt="others"] +a{
     display: flex;
     margin-top: 3%; 
 }
-.before_footer_top > div h1{
+.before_footer_top > div> .h1{
     color: #000;
     
     font-size: 1.1rem;
-    font-weight: 700;
+    font-weight: bolder;
     padding: 2% 0 0 5%;
 }
-.before_footer_top > div h6{
+.before_footer_top > div >.h6{
     color: #000;
     
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight:bold;
     padding: 2% 0 0 5%;
 }
 .panel{
@@ -312,7 +311,7 @@ footer ul li a{
     color: #000;
 
     font-size: 0.9rem;
-    font-weight: 700;   
+    font-weight:bolder;   
 
 }
 .navbar{
