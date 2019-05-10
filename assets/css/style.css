@@ -42,13 +42,16 @@ footer{
     color:white;
 }
 .left_main{
-    width: 100%;
-    height: 200px;
-    background: gold;
+    width: 60%;
 }
 
 .ryt_main{
     width: 100%;
-    height: 200px;
-    background: green;
+}
+.h1{
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #000;
+    font-family: inherit;
 }
