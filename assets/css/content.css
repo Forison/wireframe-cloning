@@ -41,12 +41,13 @@ img[alt="top_nav"]{
     padding-left:  1%;
 }
 img[alt="mid_two"]{
-   width: 135px;
-   height: 90px;
-   margin-top: 2.5%;
-   margin-bottom: 2.5%;
+   width:135px;
+   height: 100%;
 }
-
+.sub_main >div:nth-of-type(1){
+     width: 135px;
+     height: 90px;
+}
 .sub_main>div> a{
     text-align: center;
     color: #000;
