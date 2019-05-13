@@ -27,7 +27,7 @@ $ cd Using-Bootstrap
 
 ## Deployment
 
-The demo page can be found [HERE](https://raw.githack.com/forison/Using-Bootstrap/dev/index.html)
+The demo page can be found [HERE](https://forison.github.io/Using-Bootstrap/)
 
 ## Designed and developed by
 
