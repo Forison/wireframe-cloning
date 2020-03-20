@@ -4,6 +4,9 @@ A practical demonstration of designing a website with bootstrao framework.
 This project is designed to look like [newsweek.com's news website](https://www.newsweek.com/), for the purpose of practical demonstration.
 The project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
+![mobile view](./temp1.png)
+
+![desktop view](./temp2.png)
 ## Technologies
 
 - HTML
