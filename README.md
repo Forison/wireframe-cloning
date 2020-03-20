@@ -36,6 +36,9 @@ The demo page can be found [HERE](https://forison.github.io/Using-Bootstrap/)
 
 [Boakye Addo Forison](https://github.com/Forison)
 
+## Contact
+[LinkedIn](https://www.linkedin.com/in/forison/) [Twitter](https://twitter.com/addo_forison)
+
 ## Contributing
 
 1. Fork it (https://github.com/forison/Using-Bootstrap/fork)
