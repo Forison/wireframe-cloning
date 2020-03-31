@@ -21,6 +21,11 @@ This is a template page. It focuses on how to apply bootstrap classes to create 
 
 - Responsive page
 
+## Potential Feature
+
+- Add a backend to this page to have dynamic content
+- Implement subscription in conjunction to backend.
+
 ## Usage
 
 > Clone the repository to your local machine
